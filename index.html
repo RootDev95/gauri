@@ -99,6 +99,16 @@ if (!document.createElement('canvas').getContext) {
 	adjustCodePosition();
 	$("#code").typewriter();
 }
+	<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+	<script>
+document.getElementById("icon").addEventListener("click", function() {
+    var music = document.getElementById("bgMusic");
+    music.play();
+});
+</script>
 </script>
 </body>
 </html>
